@@ -3,6 +3,7 @@ import {PlacesToGo} from "./PlacesToGo";
 import {SubmitForm} from "./SubmitForm";
 import {Prefectures} from "./Prefectures";
 import {TodayToVisit} from "./TodayToVisit";
+import {VideoComponent} from "./VideoComponent";
 
 export const MainShit = () => {
     return (
@@ -12,6 +13,7 @@ export const MainShit = () => {
             <PlacesToGo />
             <Prefectures />
             <TodayToVisit />
+            <VideoComponent />
         </main>
     )
 }
